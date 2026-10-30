@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5 — Caixa do mercado</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <p><a href="../index.html">← Voltar ao menu</a></p>
+        <h1>Atividade 5 — Caixa do mercado</h1>
+        <p>Informe um preço por linha, aplique um cupom e indique se o cliente participa do clube de fidelidade.</p>
+        <form id="formulario">
+            <div class="campo"><label for="precos">Preços dos produtos (um por linha)</label><textarea id="precos"
+                    placeholder="12,50&#10;8.90&#10;25,00" required></textarea></div>
+            <div class="campo"><label for="cupom">Cupom (opcional)</label><input id="cupom"
+                    placeholder="BEMVINDO, PROMO20 ou MENOS15"></div>
+            <div class="campo"><label><input id="fidelidade" type="checkbox" style="width:auto"> Cliente participa do
+                    clube de fidelidade (mais 5% de desconto)</label></div>
+            <button type="submit">Fechar compra</button>
+        </form>
+        <div id="resultado" class="resultado" aria-live="polite">Preencha os campos e clique em calcular.</div>
+    </main>
+    <script type="module" src="ex05.js"></script>
+</body>
+</html>
