@@ -2,4 +2,4 @@
 
 Nome: Regieglison Felipe Oliveira Maciel
 
-link do site: https://github.com/gitsameg-art/pweb-ts-estruturas
+link do site: https://gitsameg-art.github.io/pweb-ts-estruturas/
